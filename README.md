@@ -18,7 +18,7 @@ Quick warn: Some of functions are actually not in actual mod, they are actually 
 ## How to use the mod ?
 
 First thing first, subscribe to the [workshop mod here.](https://steamcommunity.com/sharedfiles/filedetails/?id=1561447232)
-Once downloaded, locat the workshop folder of steam. Example: ' steam\steamapps\workshop\content '
+Once downloaded, locate the workshop folder of steam. Example: ' steam\steamapps\workshop\content '
 
 DayZ standalone use the ID **221100** and for my mod the ID is **1561447232**, so for finding path to the mod, you need to go through this: ' steam\steamapps\workshop\content\221100 '.
 
@@ -31,3 +31,7 @@ Once you have the folder, you can rename however you want, but it is better to u
   * In the constructor or init, create a reference to EternalDay linked to the previously created member.
   
 If you don't understand the last part in class named CustomMission, I invite you to look through the **Example** folder on this github.
+
+![Help1](https://i.imgur.com/0L8d1mR.png)
+![Help2](https://i.imgur.com/H6y26pf.png)
+![Help3](https://i.imgur.com/Hjkxzaq.png)
