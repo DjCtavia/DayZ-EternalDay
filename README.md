@@ -2,6 +2,8 @@
 
 Eternal Day is a mod that allow player to set a specific time slot. However, it was initially created to have an endless day. But users adjust the parameters to their wishes.
 
+Quick warn: Some of functions are actually not in actual mod, they are actually Work In Progress [WIP]
+
 ## What can you actually  do ?
 
 * Have a specific time slot on which the server must run
