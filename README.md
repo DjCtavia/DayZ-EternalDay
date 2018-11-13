@@ -23,9 +23,9 @@ Once downloaded, locate the workshop folder of steam. Example: ' steam\steamapps
 DayZ standalone use the ID **221100** and for my mod the ID is **1561447232**, so for finding path to the mod, you need to go through this: ' steam\steamapps\workshop\content\221100 '.
 
 You will need to copy the folder with the ID **1561447232** into the main folder of DayZServer. (Only the folder, not its content)
-Once you have the folder, you can rename however you want, but it is better to use the name of the mod.
+Once you have the folder, you have a **mod.cpp** inside it, you need to rename the directory like the line in *dir*, if you don't do that, the mod can't be launched and will type a **bad type error**. So rename it **eternalday**, The directory can handle Uppercase.
 
-* Create a.bat that launches your server with at least the following option: **-mod=YourModName**
+* Create a.bat that launches your server with at least the following option: **-mod=EternalDay**
 * Go into mpmissions folder, go into the mission used for the server and find the class named **CustomMission**.
   * Add to the class a member of type ref EternalDay
   * In the constructor or init, create a reference to EternalDay linked to the previously created member.
