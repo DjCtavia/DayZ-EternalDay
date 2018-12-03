@@ -44,8 +44,8 @@ class CustomMission: MissionServer
 
 		m_EternalDay.setDayTime(6.5, 12.75);	//	This set time slot from 6:30AM to 12:45PM
 		
-		m_EternalDay.setRandomTime();			//	Set a random time between time slot [WIP]
-		m_EternalDay.setRandomDate();			//	Set a random date [WIP]
+		m_EternalDay.setRandomTime();
+		m_EternalDay.setRandomDate();
 */
 	}
 
